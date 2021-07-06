@@ -1,0 +1,51 @@
+
+Flexible与Expanded都是具有权重属性的组件 ,都可以控制Row、Column、Flex的子组件(children)如何布局的控件
+
+Flexible中fit参数表示填满剩余空间的方式，说明如下：
+   tight: 必须强制填满剩余空间
+   loose: 尽可能大的填满剩余空间，但是可以不填满
+
+源码如下：
+enum FlexFit {
+     /// The child is forced to fill the available space.
+     ///
+     /// The [Expanded] widget assigns this kind of [FlexFit] to its child.
+     tight,
+
+     /// The child can be at most as large as the available space (but is
+     /// allowed to be smaller).
+     ///
+     /// The [Flexible] widget assigns this kind of [FlexFit] to its child.
+     loose,
+ }
+
+
+Expanded继承Flexible具有Flexible的所有行为（面向对象特性），其默认构造函数强制fit参数为tight(强制填满剩余空间)
+源码如下：
+
+重点为: super(key: key, flex: flex, fit: FlexFit.tight, child: child) 这一行代码，调用了super的构造函数，强制widget填充剩余空间
+
+class Expanded extends Flexible {
+  /// Creates a widget that expands a child of a [Row], [Column], or [Flex]
+  /// so that the child fills the available space along the flex widget's
+  /// main axis.
+  const Expanded({
+    Key? key,
+    int flex = 1,
+    required Widget child,
+  }) : super(key: key, flex: flex, fit: FlexFit.tight, child: child);
+}
+
+总结如下：
+ 1  Flexible与Expanded都是具有权重属性的组件 ,都可以控制Row、Column、Flex的子组件(children)如何布局的控件
+ 2  Flexible可控制子组件布局是否充满剩余空间,依靠fit枚举参数控制(默认loose不填满),Expanded继承了Flexible在构造函数内强制设置fit参数
+    为tight（填满剩余空间）
+ 3  Flexible的loose参数表示子控件最多可以达到可用的大小，允许更小
+ 4  自由度Flexible更高，填满剩余空间直接使用Expanded更方便。（少写一个参数，美滋滋😏）
+
+
+
+
+
+
+
