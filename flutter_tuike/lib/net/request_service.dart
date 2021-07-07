@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:flutter/services.dart';
 import 'package:fluttertuike/net/api_manager.dart';
 
 class RequestService {
@@ -46,7 +47,18 @@ class RequestService {
     Map<String, dynamic>? queryParameters,
     CancelToken? cancelToken,
     Options? options,
+    // 是否加载本地json  因测试环境为局域网内访问 ，可打开此开关访问本地json数据
+    bool isLoadLocalJson = true
   }) async {
+
+      // 加载本地json数据
+      if(isLoadLocalJson){
+        String loadJsonStr = await rootBundle.loadString('assets/json/$apiName.json');
+        print(loadJsonStr);
+        Map<String, dynamic> tempResponse = json.decode(loadJsonStr) as Map<String, dynamic>;
+        return tempResponse["data"];
+      }
+
 
     Map<String,dynamic> postParm = {
       "sysName":"ls",

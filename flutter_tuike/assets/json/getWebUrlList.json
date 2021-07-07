@@ -1,0 +1,52 @@
+{
+  "code": "0000",
+  "data": {
+    "list": [
+      {
+        "key": "1",
+        "url": "http://testevent.hengyirong.com/tk/commission-record"
+      },
+      {
+        "key": "2",
+        "url": "http://testevent.hengyirong.com/tk/team"
+      },
+      {
+        "key": "3",
+        "url": "http://testevent.hengyirong.com/tk/client/share"
+      },
+      {
+        "key": "4",
+        "url": "http://testevent.hengyirong.com/tk/team/share"
+      },
+      {
+        "key": "5",
+        "url": "http://testevent.hengyirong.com/tk/agreement/homeprivacy"
+      },
+      {
+        "key": "6",
+        "url": "http://testevent.hengyirong.com/tk/members"
+      },
+      {
+        "key": "7",
+        "url": "http://testevent.hengyirong.com/tk/withdraw/commission-record"
+      },
+      {
+        "key": "8",
+        "url": "http://testevent.hengyirong.com/tk/withdraw/withdraw-record"
+      },
+      {
+        "key": "9",
+        "url": "http://testevent.hengyirong.com/tk/notice/detail"
+      },
+      {
+        "key": "10",
+        "url": "http://testevent.hengyirong.com/tk/order/contract"
+      },
+      {
+        "key": "11",
+        "url": "http://testevent.hengyirong.com/tk/realname/result"
+      }
+    ]
+  },
+  "msg": "成功"
+}

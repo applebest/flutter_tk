@@ -1,0 +1,24 @@
+{
+  "code": "0000",
+  "data": {
+    "list": [
+      {
+        "productType": 5,
+        "productTypeName": "智能货柜"
+      },
+      {
+        "productType": 6,
+        "productTypeName": "场地招募"
+      },
+      {
+        "productType": 1,
+        "productTypeName": "借贷产品"
+      },
+      {
+        "productType": 4,
+        "productTypeName": "生活服务"
+      }
+    ]
+  },
+  "msg": "成功"
+}

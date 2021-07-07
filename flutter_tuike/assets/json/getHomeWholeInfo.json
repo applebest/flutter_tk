@@ -1,0 +1,274 @@
+{
+  "code": "0000",
+  "data": {
+    "bannerList": [
+      {
+        "imageUrl": "http://testrgw.hengchang6.com/tuikeshipin/home/2020102610463760464652.jpg",
+        "route": [
+          "webView",
+          "{\"url\":\"232\"}"
+        ]
+      }
+    ],
+    "ceramicsList": [
+      {
+        "imageUrl": "http://testrgw.hengchang6.com/tuikeshipin/home/2021041416225907260314.png",
+        "route": [
+          "login"
+        ],
+        "text": "天天超值",
+        "title": "福利专区"
+      }
+    ],
+    "noticeList": [
+      {
+        "noticeTitle": "S3图片测试",
+        "route": [
+          "noticeListPage"
+        ]
+      }
+    ],
+    "productList": [
+      {
+        "button": {
+          "route": [
+            "productTab",
+            "1"
+          ],
+          "text": "更多"
+        },
+        "isMore": 1,
+        "list": [
+          {
+            "detailAmount": "8476元",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2021010614313152046348.jpg",
+            "productFeatures": "908",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2021010614314300772144.jpg",
+            "productManual": "列表页产品说明",
+            "productName": "2021回归新增",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000113P0015\"}"
+            ],
+            "tag": [
+              "270元/单",
+              "89"
+            ]
+          },
+          {
+            "detailAmount": "456",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020111110380344762555.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020111110381445412552.jpg",
+            "productManual": "列表页产品说明",
+            "productName": "货柜-定金/尾款cps测试yj3",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000026P0017\"}"
+            ],
+            "tag": [
+              "分享赚佣金满3000返100，开机开卷考2%炒豆腐扩大开放就看到JFK设计费"
+            ]
+          },
+          {
+            "detailAmount": "详情页头部金额",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020101415434339023255.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020101415434889710579.jpg",
+            "productManual": "列表页产品说明",
+            "productName": "场地招募",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000113P0012\"}"
+            ],
+            "tag": [
+              "100元/单"
+            ]
+          }
+        ],
+        "productType": 5,
+        "title": "智能货柜"
+      },
+      {
+        "button": {
+          "route": [
+            "productTab",
+            "3"
+          ],
+          "text": "更多"
+        },
+        "isMore": 1,
+        "list": [
+          {
+            "detailAmount": "1",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020122410230227594233.jpg",
+            "productFeatures": "1",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020122410214314980092.jpg",
+            "productManual": "列表页产品说明",
+            "productName": "信信信场地S116P6",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000116P0006\"}"
+            ],
+            "tag": [
+              "1"
+            ]
+          },
+          {
+            "detailAmount": "¥100详情页头部金额",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020120911034909856913.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020120911040142847424.jpg",
+            "productManual": "列表页产品说明",
+            "productName": "场地招募yj",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000116P0004\"}"
+            ],
+            "tag": [
+              "发掘身边榜样，礼赞凡人善举市委宣传部、首都文明办主办，北京广播电视台承办，持续在全市深入开展“北京榜样”主题活动。活动坚持开门办评选，自下而上，层层举荐、周周上榜、月月公益、全媒传播，在全市宣传树立了一批群众认可、社会呼唤的榜样人物，营造了崇德向善、见贤思齐的文明风尚。今年，共评审产生周类别和行业分布典型性强、代表性广。根据评选规则和标体作为年榜候选人和年度特别奖候选团体进入年度评选。现刊体简要事迹，展示榜样风采，接受公众监督，欢迎市民群众积极参与为榜样点赞留言活动.今年，共评审产生周类别和行业分布典型性强、代表性广。根据评选规则和标体作为年榜候选人和年度特别奖候选团体进入年度评选。现刊体简要事迹，展示榜样风采，接受公众监督，欢还解决"
+            ]
+          },
+          {
+            "detailAmount": "详情页头部金",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020120111003453898259.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020120111003989430071.jpg",
+            "productManual": "列表页产品说明",
+            "productName": "场地招募产品测试yj",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000116P0001\"}"
+            ],
+            "tag": [
+              "场地招募佣金配置"
+            ]
+          }
+        ],
+        "productType": 6,
+        "title": "场地招募"
+      },
+      {
+        "button": {
+          "route": [
+            "productTab",
+            "0"
+          ],
+          "text": "更多"
+        },
+        "isMore": 1,
+        "list": [
+          {
+            "detailAmount": "详情页头部金额",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/loanProduct/2020101418475081221447.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "",
+            "productManual": "列表页借款金额",
+            "productName": "新增借款产品",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000006P0119\"}"
+            ],
+            "tag": [
+              "600"
+            ]
+          },
+          {
+            "detailAmount": "800",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/loanProduct/2020101315270035611178.jpg",
+            "productFeatures": "产品列表页特点，解决的话就是和吴蕊哦额活动方式欸u我如积极的借记卡贷记卡是开看的封建士大夫艰苦善良的的士大夫士大夫的飞快的文案超长测试如何显示",
+            "productListPicture": "",
+            "productManual": "产品列表页借款金额如果文案超长时看首页和产品页分别如何显示2000",
+            "productName": "恒昌优贷恒易融线下产文案超长测试如何显示",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000001P0001\"}"
+            ],
+            "tag": [
+              "佣金配置0.2%文案超长测试如何显示文案超长看显示"
+            ]
+          },
+          {
+            "detailAmount": "1",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/loanProduct/2020101315270077284150.jpg",
+            "productFeatures": "1111111111",
+            "productListPicture": "",
+            "productManual": "11111111111",
+            "productName": "即速贷恒易融线上的产品",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000002P0001\"}"
+            ],
+            "tag": [
+              "111111111111111"
+            ]
+          }
+        ],
+        "productType": 1,
+        "title": "借贷产品"
+      },
+      {
+        "button": {
+          "route": [
+            "productTab",
+            "2"
+          ],
+          "text": "更多"
+        },
+        "isMore": 1,
+        "list": [
+          {
+            "detailAmount": "123",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2021020715543279140212.jpg",
+            "productFeatures": "单独",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2021020715513196420688.jpg",
+            "productManual": "借款",
+            "productName": "分享赚生活哦",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000113P0005\"}"
+            ],
+            "tag": [
+              "分享2",
+              "自购5"
+            ]
+          },
+          {
+            "detailAmount": "详情页头部金额2332.678文案凑近文案过长显示",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2021020715534205848783.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2021020715533860218078.jpg",
+            "productManual": "列表页产品说明-的风口浪尖撒开绿灯飞机失控垃圾的付款了-文案超长",
+            "productName": "分享赚-测试你看的封士大夫到付-文案超长",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000113P0003\"}"
+            ],
+            "tag": [
+              "分享佣金4快点放假啊JFK连接方法的释放速度为日哦额空间上的飞机上的-文案过长",
+              "自购佣金3%无间谍局赋税打击对方肯定是带文案过长"
+            ]
+          },
+          {
+            "detailAmount": "详情页头部金额",
+            "iconUrl": "http://testrgw.hengchang6.com/tuikeshipin/unLoanProduct/2020101315271202965357.jpg",
+            "productFeatures": "列表页产品特点",
+            "productListPicture": "",
+            "productManual": "列表页产品说明",
+            "productName": "非借款类三方产品yj2",
+            "route": [
+              "webView",
+              "{\"url\":\"http://testevent.hengyirong.com/tk/product/detail?productNum=S000113P0002\"}"
+            ],
+            "tag": [
+              "佣金配置"
+            ]
+          }
+        ],
+        "productType": 4,
+        "title": "生活服务"
+      }
+    ]
+  },
+  "msg": "成功"
+}

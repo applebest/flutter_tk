@@ -1,0 +1,14 @@
+{
+  "code": "0000",
+  "data": {
+    "appName": "ls",
+    "downloadUrl": "",
+    "forceUpgrade": false,
+    "newAppVer": "",
+    "os": "ios",
+    "releaseDate": "",
+    "releaseInfo": "",
+    "upgradeTitle": ""
+  },
+  "msg": "成功"
+}

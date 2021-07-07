@@ -84,6 +84,7 @@ class _WithdrawalAlertState extends State<WithdrawalAlert> {
   void dispose() {
     // TODO: implement dispose
     _node.dispose();
+    _cancelTimer();
     _controller.dispose();
     super.dispose();
   }
