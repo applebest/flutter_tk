@@ -94,8 +94,11 @@ class _ProductPageState extends State<ProductPage>
                   Container(
                     color: Color.fromRGBO(241, 243, 248, 1),
                     padding: EdgeInsets.only(left: 10, right: 10, top: 10),
+                    width: double.infinity,
+                    alignment: Alignment.center,
                     height: 40,
                     child: TabBar(
+                      indicatorPadding: EdgeInsets.only(left: 20,right: 20),
                       controller: _tabController,
                       isScrollable: true,
                       indicatorSize: TabBarIndicatorSize.label,

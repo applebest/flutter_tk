@@ -24,8 +24,8 @@ class APIManager{
   EnvironmentType _type = EnvironmentType.test;
   EnvironmentType get type => _type;
 
-  bool _isEncrypt = false; // 是否加密
-  bool get isEncrypt => _isEncrypt;
+  // 是否对请求数据做AES加密
+  bool get isEncrypt => _type == EnvironmentType.test ? false : true;
 
 
   String  _baseUrl = "";

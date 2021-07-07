@@ -41,8 +41,7 @@ class HomeBanner extends StatelessWidget {
                     "home_header_placeholder"
                 );
               },
-              imageUrl: "https://img0.baidu.com/it/u=828566630,2545235062&fm=26&fmt=auto&gp=0.jpg",
-//              imageUrl: data[index].imageUrl ?? "",
+              imageUrl: data[index].imageUrl ?? "",
               fit: BoxFit.fill,
             ),
           );
