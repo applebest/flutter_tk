@@ -9,7 +9,7 @@
 | :--------------------------------: | :---------------------------------: | :-------------------------------: | :-------------------------------:  |
 | ![](./flutter_tuike/preview/5.png)    |  ![](./flutter_tuike/preview/6.png)  | ![](./flutter_tuike/preview/7.png)   |  ![](./flutter_tuike/preview/8.png)   |
 | ![](./flutter_tuike/preview/9.png)    |  ![](./flutter_tuike/preview/10.png)   | ![](./flutter_tuike/preview/11.png)  |  ![](./flutter_tuike/preview/12.png)  |
-| ![](./flutter_tuike/preview/13.png)   |  ![](./flutter_tuike/preview/14.png)    | ![](./flutter_tuike/preview/15.png)  |
+| ![](./flutter_tuike/preview/13.png)   |  ![](./flutter_tuike/preview/14.png)    | ![](./flutter_tuike/preview/15.png)  
 
 
 
