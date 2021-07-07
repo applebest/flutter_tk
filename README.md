@@ -33,6 +33,42 @@
      
     2. Dart version 2.13.0
     
+### App环境切换
+>- |--lib
+>    - |-- net (网络请求文件)
+
+```dart
+//代码更改
+class APIManager{
+
+
+  final  String LS_iv = "lsm-api-iv-param";
+
+  EnvironmentType _type = EnvironmentType.test;   // 此处更改环境测试与线上
+  EnvironmentType get type => _type;
+
+  bool _isEncrypt = false; // 是否加密
+  bool get isEncrypt => _isEncrypt;
+
+
+  String  _baseUrl = "";
+  String get baseUrl => _baseUrl;
+
+  String _encryptKey = "";
+  String get encryptKey => _encryptKey;
+
+  String _decryptKey = "";
+  String get decryptKey => _decryptKey;
+
+
+
+  factory APIManager() => _singleton;
+  static final APIManager  _singleton = APIManager._();
+  static APIManager get instance => APIManager();
+}
+
+```
+    
 ## 心得总结（推荐阅读）
 
 - [Flutter跨页面改变BottomNavigationBar选中下标](https://www.jianshu.com/p/e01fd340906f)
