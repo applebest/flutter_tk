@@ -5,10 +5,13 @@
 
 部分页面效果如下：
 
-| ![](./flutter_tuike/preview/1.png) | ![](./flutter_tuike/preview/2.png)   |  ![](./flutter_tuike/preview/3.gif)   |
-| ![](./flutter_tuike/preview/4.gif)    |  ![](./flutter_tuike/preview/5.png)    | ![](./flutter_tuike/preview/6.png)   |  ![](./flutter_tuike/preview/7.png)   |
-| ![](./flutter_tuike/preview/8.png)    |  ![](./flutter_tuike/preview/9.png)   | ![](./flutter_tuike/preview/10.png)  |  ![](./flutter_tuike/preview/11.png)  |
-| ![](./flutter_tuike/preview/12.png)   |  ![](./flutter_tuike/preview/13.png)   | ![](./flutter_tuike/preview/14.png)  |  ![](./flutter_tuike/preview/15.png)    |
+| ![](./flutter_tuike/preview/1.png)     |  ![](./flutter_tuike/preview/2.png)   | ![](./flutter_tuike/preview/3.gif)   |  ![](./flutter_tuike/preview/4.gif)   |
+| :--------------------------------: | :---------------------------------: | :-------------------------------: | :-------------------------------:  |
+| ![](./flutter_tuike/preview/5.png)    |  ![](./flutter_tuike/preview/6.png)  | ![](./flutter_tuike/preview/7.png)   |  ![](./flutter_tuike/preview/8.png)   |
+| ![](./flutter_tuike/preview/9.png)    |  ![](./flutter_tuike/preview/10.png)   | ![](./flutter_tuike/preview/11.png)  |  ![](./flutter_tuike/preview/12.png)  |
+| ![](./flutter_tuike/preview/13.png)   |  ![](./flutter_tuike/preview/14.png)    | ![](./flutter_tuike/preview/15.png)  |
+
+
 
 **觉得还可以的话，来个Star、Fork支持一波！**
 
