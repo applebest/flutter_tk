@@ -5,11 +5,13 @@
 
 部分页面效果如下：
 
-| ![](./flutter_tuike/preview/1.png) | ![](./flutter_tuike/preview/2.png)   |  ![](./flutter_tuike/preview/3.gif)   |
+| ![](./flutter_tuike/preview/1.png)     |  ![](./flutter_tuike/preview/2.png)   | ![](./flutter_tuike/preview/3.gif)   |  ![](./flutter_tuike/preview/4.gif)   |
 | :--------------------------------: | :---------------------------------: | :-------------------------------: | :-------------------------------:  |
-| ![](./flutter_tuike/preview/4.gif)    |  ![](./flutter_tuike/preview/5.png)    | ![](./flutter_tuike/preview/6.png)   |  ![](./flutter_tuike/preview/7.png)   |
-| ![](./flutter_tuike/preview/8.png)    |  ![](./flutter_tuike/preview/9.png)   | ![](./flutter_tuike/preview/10.png)  |  ![](./flutter_tuike/preview/11.png)  |
-| ![](./flutter_tuike/preview/12.png)   |  ![](./flutter_tuike/preview/13.png)   | ![](./flutter_tuike/preview/14.png)  |  ![](./flutter_tuike/preview/15.png)    |
+| ![](./flutter_tuike/preview/5.png)    |  ![](./flutter_tuike/preview/6.png)  | ![](./flutter_tuike/preview/7.png)   |  ![](./flutter_tuike/preview/8.png)   |
+| ![](./flutter_tuike/preview/9.png)    |  ![](./flutter_tuike/preview/10.png)   | ![](./flutter_tuike/preview/11.png)  |  ![](./flutter_tuike/preview/12.png)  |
+| ![](./flutter_tuike/preview/13.png)   |  ![](./flutter_tuike/preview/14.png)    | ![](./flutter_tuike/preview/15.png)  
+
+
 
 **觉得还可以的话，来个Star、Fork支持一波！**
 
@@ -30,6 +32,42 @@
     1. Flutter version 2.2.0
      
     2. Dart version 2.13.0
+    
+### App环境切换
+>- |--lib
+>    - |-- net (网络请求文件)
+
+```dart
+//代码更改
+class APIManager{
+
+
+  final  String LS_iv = "lsm-api-iv-param";
+
+  EnvironmentType _type = EnvironmentType.test;   // 此处更改环境测试与线上
+  EnvironmentType get type => _type;
+
+  bool _isEncrypt = false; // 是否加密
+  bool get isEncrypt => _isEncrypt;
+
+
+  String  _baseUrl = "";
+  String get baseUrl => _baseUrl;
+
+  String _encryptKey = "";
+  String get encryptKey => _encryptKey;
+
+  String _decryptKey = "";
+  String get decryptKey => _decryptKey;
+
+
+
+  factory APIManager() => _singleton;
+  static final APIManager  _singleton = APIManager._();
+  static APIManager get instance => APIManager();
+}
+
+```
     
 ## 心得总结（推荐阅读）
 
