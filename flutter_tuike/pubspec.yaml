@@ -39,6 +39,8 @@ dependencies:
   device_info: 2.0.1
   #webview
   webview_flutter: 2.0.7
+  #js交互
+  #flutter_jsbridge_plugin: ^0.0.4
   #加入安全的轮播图
   flutter_swiper_null_safety: ^1.0.2
   #网络图片
@@ -51,7 +53,10 @@ dependencies:
   encrypt: ^5.0.0
   #键盘toolBar
   keyboard_actions: ^3.4.0
-
+  #保存图片到相册
+  image_gallery_saver: ^1.6.9
+  #权限管理
+  permission_handler: ^8.1.2
 
 
 

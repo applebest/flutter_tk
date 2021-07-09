@@ -148,6 +148,8 @@ class ProductModel {
     _tag = json["tag"] != null ? json["tag"].cast<String>() : [];
     _iconUrl = json["iconUrl"];
     _selfBuyCmsWriting = json["selfBuyCmsWriting"];
+    _route = json["route"] != null ? json["route"].cast<String>() : [];
+
   }
 
   Map<String, dynamic> toJson() {

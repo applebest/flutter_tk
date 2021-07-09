@@ -1,6 +1,7 @@
 
 import 'package:fluro/fluro.dart';
 import 'package:fluro/src/fluro_router.dart';
+import 'package:fluttertuike/page/mine/page/posters_page.dart';
 import 'package:fluttertuike/page/mine/page/privacy_setting_page.dart';
 import 'package:fluttertuike/page/mine/page/setting_page.dart';
 import 'package:fluttertuike/page/mine/page/withdrawal_page.dart';
@@ -19,6 +20,8 @@ class MineRouter implements InterFaceRouter{
 
   static String withDrawalRecordPage = "WithDrawalRecordPage";
 
+  static String postersPage  = "PostersPage";
+
   @override
   void initRouter(FluroRouter router) {
     router.define(withdrawalPage, handler:Handler(handlerFunc:(_ , __) => WithdrawalPage()));
@@ -35,6 +38,7 @@ class MineRouter implements InterFaceRouter{
 
     router.define(privacySettingPage, handler: Handler(handlerFunc:(_ , __) => PrivacySettingPage()));
     router.define(withDrawalRecordPage, handler: Handler(handlerFunc:(_ , __) => WithDrawalRecordPage()));
+    router.define(postersPage, handler: Handler(handlerFunc:(_ , __) => PostersPage()));
 
 
   }

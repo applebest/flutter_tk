@@ -48,7 +48,7 @@ class RequestService {
     CancelToken? cancelToken,
     Options? options,
     // 是否加载本地json  因测试环境为局域网内访问 ，可打开此开关访问本地json数据
-    bool isLoadLocalJson = true
+    bool isLoadLocalJson = false
   }) async {
 
       // 加载本地json数据

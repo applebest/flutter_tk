@@ -4,6 +4,7 @@ import 'package:fluttertuike/page/mine/router/mine_router.dart';
 import 'package:fluttertuike/routers/nav.dart';
 import 'package:fluttertuike/widgets/load_iamge.dart';
 import 'package:fluttertuike/widgets/share.dart';
+import 'package:oktoast/oktoast.dart';
 
 class MinePage extends StatefulWidget {
   @override
@@ -26,6 +27,35 @@ class _MinePageState extends State<MinePage> {
     print("bottomshow");
     showModalBottomSheet(context: context, builder: (BuildContext context){
       return ShareWidget();
+    }).then((value) {
+      switch (value){
+        case 0:{
+          showToast(value.toString());
+        }
+          break;
+
+        case 1:{
+          showToast(value.toString());
+        }
+          break;
+      // 生成海报
+        case 2:{
+//          showToast(value.toString());
+          Nav.push(context, MineRouter.postersPage);
+        }
+
+          break;
+
+        case 3:{
+          showToast(value.toString());
+        }
+          break;
+
+
+        default:
+          break;
+      }
+
     });
 
   }

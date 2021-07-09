@@ -5,6 +5,12 @@ import 'package:fluttertuike/widgets/load_iamge.dart';
 import 'package:oktoast/oktoast.dart';
 
 class ShareWidget extends StatelessWidget {
+
+//  ValueChanged callBack;
+//
+//  ShareWidget(this.callBack);
+
+
   @override
   Widget build(BuildContext context) {
 
@@ -36,8 +42,8 @@ class ShareWidget extends StatelessWidget {
                 return GestureDetector(
                   onTap: (){
                     print(index);
-                    Navigator.pop(context);
-                    showToast("点击了${elementData[index]["text"]}");
+//                    Navigator.of(context).pop(index);
+                    Navigator.pop(context,index);
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
