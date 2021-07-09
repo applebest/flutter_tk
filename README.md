@@ -9,7 +9,7 @@
 | :--------------------------------: | :---------------------------------: | :-------------------------------: | :-------------------------------:  |
 | ![](./flutter_tuike/preview/5.png)    |  ![](./flutter_tuike/preview/6.png)  | ![](./flutter_tuike/preview/7.png)   |  ![](./flutter_tuike/preview/8.png)   |
 | ![](./flutter_tuike/preview/9.png)    |  ![](./flutter_tuike/preview/10.png)   | ![](./flutter_tuike/preview/11.png)  |  ![](./flutter_tuike/preview/12.png)  |
-| ![](./flutter_tuike/preview/13.png)   |  ![](./flutter_tuike/preview/14.png)    | ![](./flutter_tuike/preview/15.png)  
+| ![](./flutter_tuike/preview/13.png)   |  ![](./flutter_tuike/preview/14.png)    | ![](./flutter_tuike/preview/15.png)  | ![](./flutter_tuike/preview/16.gif)
 
 
 
@@ -20,7 +20,7 @@
 * mvp模式
 * 使用`provider` (5.x 版本)做状态管理
 * 基于`dio` （4.x 版本）的网络请求封装
-* 使用`Swiper` 组件实现轮播图
+* 图片存储相册
 * 通用Widget的处理封装
 * 下拉刷新 + 上拉加载更多
 * 多弹框的顺序弹出
