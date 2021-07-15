@@ -224,9 +224,7 @@ class _MinePageState extends State<MinePage> {
   // 我的团队
   Widget _teamView() {
     return GestureDetector(
-      onTap: () {
-        print("我的团队点击");
-      },
+      onTap: () => Nav.push(context, MineRouter.myTeamPage),
       child: Container(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(4), color: Colors.white),
