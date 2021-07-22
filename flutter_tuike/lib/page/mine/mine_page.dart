@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertuike/constant/constant.dart';
 import 'package:fluttertuike/page/mine/router/mine_router.dart';
 import 'package:fluttertuike/routers/nav.dart';
+import 'package:fluttertuike/routers/routers.dart';
 import 'package:fluttertuike/widgets/load_iamge.dart';
 import 'package:fluttertuike/widgets/share.dart';
 import 'package:oktoast/oktoast.dart';
@@ -268,6 +269,25 @@ class _MinePageState extends State<MinePage> {
     );
   }
 
+  _enterDetailPage(int index){
+    print("${dataList[index]["title"]} 点击");
+
+    switch (index){
+      case 0:{
+
+      }
+      break;
+
+      case 1:{
+        Nav.push(context, MineRouter.addBankCardPage);
+      }
+      break;
+
+
+    }
+
+  }
+
   // listView
   Widget _listView(){
 
@@ -283,8 +303,9 @@ class _MinePageState extends State<MinePage> {
         itemCount: dataList.length,
         itemBuilder: (BuildContext context,int index){
           return GestureDetector(
+            behavior: HitTestBehavior.opaque,
             onTap: (){
-              print("${dataList[index]["title"]} 点击");
+              _enterDetailPage(index);
             },
             child: Container(
               height: 55,
